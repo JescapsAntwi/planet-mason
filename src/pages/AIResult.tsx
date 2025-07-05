@@ -40,7 +40,7 @@ const AIResult = () => {
     } else {
       navigate("/builder");
     }
-    
+
     // Simulate AI processing time
     setTimeout(() => setLoading(false), 2000);
   }, [navigate]);
